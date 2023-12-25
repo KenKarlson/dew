@@ -1,12 +1,26 @@
 .footer
-  height: 154px
-  
+  min-height: 124px  
   &-box
-    height: 100%
-    border: 1px solid black
+    height: 100%    
     display: flex
     align-items: center
     justify-content: space-between
-    border: 2px solid #a1a1a1
+    gap: 36px
   &-nav
     flex-grow: 1
+    & ul
+      margin: 0
+      padding: 0
+      display: flex
+      align-items: center
+      list-style: none
+      gap:15px
+      & li        
+        font-size: 18px        
+        font-weight: 400        
+        color: #595959
+  &-social
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    gap:20px
