@@ -22,8 +22,13 @@ body {
   background: linear-gradient(180deg, rgba(245, 245, 245, 0.01) 1.04%, #F5F5F5 100%);
 }
 
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
-  min-height: 124px;
+  height: 125px;
   display: flex;
   align-items: center;
   font-family: "Nunito Sans", sans-serif;
@@ -48,6 +53,31 @@ body {
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
+}
+
+.banner {
+  margin: 0 0 50px 0;
+  padding: 68px;
+  border: none;
+  border-radius: 10px;
+  background-color: bisque;
+}
+.banner-item {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.banner-item--title {
+  margin-bottom: 15px !important;
+  max-width: 50%;
+  font-size: 39px;
+  font-weight: 700;
+  color: #302C34;
+}
+.banner-item--subtitle {
+  max-width: 50%;
+  ont-size: 24px;
+  font-weight: 400;
+  color: #302C34;
 }
 
 .footer {
