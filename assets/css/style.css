@@ -67,14 +67,18 @@ input:focus {
 
 .banner {
   margin: 0 0 56px 0;
+}
+.banner-item {
+  background-image: url(/assets/img/kkb.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: 60%;
   padding: 68px;
   border: none;
   border-radius: 10px;
   background-color: bisque;
-}
-.banner-item {
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 .banner-item--title {
   margin-bottom: 15px !important;
@@ -276,6 +280,9 @@ input:focus {
   }
   .banner {
     padding: 20px;
+  }
+  .banner-item {
+    background-image: none;
   }
   .banner-item--title {
     max-width: 100%;
