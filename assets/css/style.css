@@ -58,6 +58,9 @@ input:focus {
   flex-grow: 1;
   margin-left: 15px;
 }
+.header-title a {
+  text-decoration: none;
+}
 .header-control {
   display: flex;
   align-items: center;
